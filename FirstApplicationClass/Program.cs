@@ -3,16 +3,18 @@ using FirstApplicationClass.Repository;
 using FirstApplicationClass.Service;
 using Microsoft.EntityFrameworkCore;
 using FirstApplicationClass.Repository.Interface;
+using FirstApplicationClass.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 builder.Services.AddControllers();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IPersonalInfo,PersonalDetailsRepository>();
+builder.Services.AddScoped<IPersonalDetails,PersonalDetailsRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

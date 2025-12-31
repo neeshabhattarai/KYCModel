@@ -1,4 +1,4 @@
-﻿using FirstApplicationClass.Model;
+﻿using FirstApplicationClass.Model.Domains;
 using Microsoft.EntityFrameworkCore;
 
 namespace FirstApplicationClass.Service

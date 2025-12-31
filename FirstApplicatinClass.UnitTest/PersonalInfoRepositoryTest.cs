@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using FirstApplicationClass.Repository;
-using FirstApplicationClass.Model;
+using FirstApplicationClass.Model.Domains;
 
 namespace FirstApplicatinClass.UnitTest
 {

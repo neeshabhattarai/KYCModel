@@ -1,17 +1,23 @@
-﻿using FirstApplicationClass.Model;
+﻿using AutoMapper;
+using FirstApplicationClass.Model.Domains;
+using FirstApplicationClass.Model.DTO;
 using FirstApplicationClass.Repository.Interface;
 using FirstApplicationClass.Service;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstApplicationClass.Repository
 {
-    public class PersonalDetailsRepository:IPersonalInfo
+    public class PersonalDetailsRepository:IPersonalDetails
     {
         private readonly ApplicationDbContext dbContext;
+        private readonly IMapper mapper;
+
         public PersonalDetailsRepository(ApplicationDbContext applicationDb)
         {
-           this.dbContext = applicationDb; 
+           this.dbContext = applicationDb;
+            this.mapper = mapper;
         }
         public List<PersonalDetails> ListOfPerson()
         {
@@ -24,34 +30,45 @@ namespace FirstApplicationClass.Repository
             await dbContext.SaveChangesAsync();
             return person;
         }
-        public async Task<string> UpdatePersonalInfo(string id,PersonalDetails person)
+        public async Task<PersonalDetails> UpdatePersonalInfo(string id,PersonalDetails person)
         {
            
             var result = await dbContext.PersonalInfo.FindAsync(int.Parse(id));
             if (result == null)
             {
-                return "User Not found";
+                return null;
             }
             result.PhoneNumber = person.PhoneNumber;
             result.FirstName = person.FirstName;
             result.LastName = person.LastName;
             result.EmailAddress = person.EmailAddress;
             await dbContext.SaveChangesAsync();
-            return "User Information Update";
+            return result;
 
         }
         
-        public async Task<string> DeletePerson(string id)
+        public async Task<PersonalDetails?> DeletePerson(string id)
         {
-            var user = await dbContext.PersonalInfo.FindAsync(Int32.Parse(id));
+            var user =await  dbContext.PersonalInfo.FindAsync(Int32.Parse(id));
             if (user == null)
             {
-                return "User Not found";
+                return null;
             }
+            
             dbContext.PersonalInfo.Remove(user);
-            await dbContext.SaveChangesAsync();
+             await dbContext.SaveChangesAsync();
 
-            return "User deleted successfully";
+            return user ;
+        }
+
+        public async Task<PersonalDetails> GetById(string id)
+        {
+            var result = await dbContext.PersonalInfo.FirstOrDefaultAsync(x=>x.Id==int.Parse(id));
+            if (result == null)
+            {
+                return null;
+            }
+            return result;
         }
     }
 }
