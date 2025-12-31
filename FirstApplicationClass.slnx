@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FirstApplicatinClass.UnitTest/FirstApplicatinClass.UnitTest.csproj" Id="2598d43f-ff99-484b-b1cd-149a5f6f7298" />
+  <Project Path="FirstApplicationClass.Api.IntegrationTest/FirstApplicationClass.Api.IntegrationTest.csproj" Id="30d16e89-58f3-479c-970e-2c8911f9a625" />
+  <Project Path="FirstApplicationClass/FirstApplicationClass.csproj" />
+</Solution>
