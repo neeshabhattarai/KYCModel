@@ -10,6 +10,7 @@ namespace FirstApplicationClass.Service
             
         }
         public DbSet<PersonalDetails> PersonalInfo { get; set; }
+        public DbSet<NationalIdentity> NationalIdentities { get; set; }
 
     }
 }

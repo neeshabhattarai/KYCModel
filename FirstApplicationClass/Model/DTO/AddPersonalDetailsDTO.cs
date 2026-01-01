@@ -1,11 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FirstApplicationClass.Model.Domains;
+using System.ComponentModel.DataAnnotations;
 
 namespace FirstApplicationClass.Model.DTO
 {
     public class AddPersonalDetaislDTO
     {
         [Key]
-        public int Id { get; set; }
+        [StringLength(100)]
+        public string Id { get; set; } = Guid.NewGuid().ToString();
+
         [Required]
         [StringLength(100)]
         public string FirstName { get; set; } = string.Empty;
@@ -37,6 +40,8 @@ namespace FirstApplicationClass.Model.DTO
 
         [StringLength(100)]
         public string Income { get; set; } = string.Empty;
+        [Required]
+        public string NationalIdentityId { get; set; } = string.Empty;
 
 
     }

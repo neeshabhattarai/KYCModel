@@ -30,7 +30,7 @@ namespace FirstApplicationClass.Model.DTO
         public string City { get; set; } = string.Empty;
 
         [Required]
-        public int NationalId { get; set; }
+        public string NationalIdentityId { get; set; } = string.Empty;
         [Required]
 
         [StringLength(100)]
