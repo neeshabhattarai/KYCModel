@@ -4,7 +4,7 @@ namespace FirstApplicationClass.Model.DTO
 {
     public class ReadPersonalDetailsDTO
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
 
         public string FirstName { get; set; } = string.Empty;
 

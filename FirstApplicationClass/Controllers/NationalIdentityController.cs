@@ -3,6 +3,7 @@ using FirstApplicationClass.CustomValidationAttribute;
 using FirstApplicationClass.Model.Domains;
 using FirstApplicationClass.Model.DTO;
 using FirstApplicationClass.Repository.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,7 @@ namespace FirstApplicationClass.Controllers
             this.mapper = mapper;
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GeAll()
         {
             var resutl= await nationalIDentityRepository.GetAll();

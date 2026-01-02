@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace FirstApplicationClass.Migrations
 {
     /// <inheritdoc />
-    public partial class InititalMigration : Migration
+    public partial class SecondMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,7 +14,7 @@ namespace FirstApplicationClass.Migrations
                 name: "NationalIdentities",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     NationalId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -27,7 +26,7 @@ namespace FirstApplicationClass.Migrations
                 name: "PersonalInfo",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", maxLength: 100, nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DOB = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -36,7 +35,7 @@ namespace FirstApplicationClass.Migrations
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     City = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Income = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NationalIdentityId = table.Column<string>(type: "nvarchar(100)", nullable: false)
+                    NationalIdentityId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {

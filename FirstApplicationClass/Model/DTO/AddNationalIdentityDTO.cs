@@ -6,7 +6,7 @@ namespace FirstApplicationClass.Model.DTO
     {
         [Key]
         [StringLength(100)]
-        public string Id { get; set; } = Guid.NewGuid().ToString();
+        public string Id  = Guid.NewGuid().ToString();
         [Required]
         public int NationalId { get; set; }
     }
