@@ -15,17 +15,20 @@ namespace FirstApplicationClass.Controllers
     {
         private readonly IPersonalDetails personalInfoRepository;
         private readonly IMapper mapper;
+        private readonly ILogger logger;
 
-        public PersonalDetailsController(IPersonalDetails repository, IMapper mapper)
+        public PersonalDetailsController(IPersonalDetails repository, IMapper mapper,ILogger<PersonalDetailsController> logger)
         {
             this.personalInfoRepository = repository;
             this.mapper = mapper;
+            this.logger = logger;
         }
         [HttpGet]
         public IActionResult GetData([FromQuery]string? filterBy, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAscending=true, [FromQuery] int pageNumber=1, [FromQuery] int pageSize=100)
         {
             var personalDetails = personalInfoRepository.ListOfPerson(filterBy,filterQuery,sortBy,isAscending,pageNumber,pageSize);
             var personalDetailsMapping = mapper.Map<List<AddPersonalDetaislDTO>>(personalDetails);
+            logger.LogInformation("Hello This is log");
             return Ok(personalDetailsMapping);
         }
         [HttpGet("{id}")]

@@ -8,6 +8,7 @@ using System.Text;
 namespace FirstApplicationClass.Repository
 {
     public class TokenGenerator : IToken
+  
     {
         private readonly IConfiguration configuration;
 
@@ -19,16 +20,14 @@ namespace FirstApplicationClass.Repository
         {
             var claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Email, user.Email));
-
             foreach (var role in roles)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"]));
-            var siginInKey=new SigningCredentials(key,SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(configuration["JWT:Issuer"], configuration["JWT:Audience"], claims,expires: DateTime.Now.AddMinutes(20),signingCredentials:siginInKey);
-        return new JwtSecurityTokenHandler().WriteToken(token);
+            var Key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:key"]));
+            var signingKey = new SigningCredentials(Key, SecurityAlgorithms.HmacSha256);
+            var token = new JwtSecurityToken(configuration["JWT:Issuer"], configuration["JWT:Audience"], claims, expires: DateTime.Now.AddMinutes(15), signingCredentials: signingKey);
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

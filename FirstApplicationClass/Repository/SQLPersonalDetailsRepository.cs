@@ -21,6 +21,7 @@ namespace FirstApplicationClass.Repository
         }
         public List<PersonalDetails> ListOfPerson(string? filterBy, string? filterQuery, string? sortBy, bool isAscending = true, int pageNumber = 1, int pageSize = 100)
         {
+            //throw new Exception("Something you did wrong");
             var listOfPerson = dbContext.PersonalInfo.Include(x => x.NationalIdentity).AsQueryable();
             //Filtering
             if (!String.IsNullOrWhiteSpace(filterBy) && !String.IsNullOrWhiteSpace(filterQuery)) {

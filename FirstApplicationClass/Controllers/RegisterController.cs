@@ -52,7 +52,7 @@ namespace FirstApplicationClass.Controllers
         }
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login([FromBody] RegisterDTO registerDto)
+        public async Task<IActionResult> Login([FromBody] LoginDTO registerDto)
         {
             var user=await manager.FindByEmailAsync(registerDto.Email);
             if (user != null)
