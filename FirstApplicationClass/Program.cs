@@ -59,6 +59,12 @@ builder.Services.AddScoped<IPersonalDetails,SQLPersonalDetailsRepository>();
 builder.Services.AddScoped<INationalIdentity,SQLNationalIDentityRepository>();
 builder.Services.AddScoped<IImage, SQLRegisterImage>();
 
+builder.Services.AddApiVersioning(opt =>
+{
+    opt.AssumeDefaultVersionWhenUnspecified = true;
+    
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -101,6 +107,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
+app.UseApiVersioning();
 app.UseMiddleware<ExceptionHandlerGlobally>();
 app.UseAuthorization();
 app.UseStaticFiles(new StaticFileOptions

@@ -11,10 +11,11 @@ namespace FirstApplicationClass.Mapper
             CreateMap<UpdatePersonalDetailsDTO, PersonalDetails>().ReverseMap();
             CreateMap<ReadPersonalDetailsDTO, PersonalDetails>().ReverseMap();
             CreateMap<NationalIdentityDTO,NationalIdentity>().ReverseMap();
-            CreateMap<ReadNationalIdentityDTO, NationalIdentity>().ReverseMap();
+            CreateMap<ReadNationalIdentityDTOv1, NationalIdentity>().ReverseMap();
             CreateMap<UpdateNationalIdentityDTO, NationalIdentity>().ReverseMap();
             CreateMap<AddNationalIdentityDTO, NationalIdentity>().ReverseMap();
-            CreateMap<List<ReadNationalIdentityDTO>, NationalIdentity>().ReverseMap();
+            CreateMap<List<ReadNationalIdentityDTOv1>, NationalIdentity>().ReverseMap();
+
 
 
         }

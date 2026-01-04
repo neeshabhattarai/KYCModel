@@ -9,8 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FirstApplicationClass.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     public class NationalIdentityController : ControllerBase
     {
         private readonly INationalIdentity nationalIDentityRepository;
@@ -23,11 +25,31 @@ namespace FirstApplicationClass.Controllers
         }
         [HttpGet]
         [Authorize]
-        public async Task<IActionResult> GeAll()
+        [MapToApiVersion("1.0")]
+        public async Task<IActionResult> GeAllv1()
         {
             var resutl= await nationalIDentityRepository.GetAll();
 
-            return Ok(mapper.Map<List<ReadNationalIdentityDTO>>(resutl));
+
+            return Ok(mapper.Map<List<ReadNationalIdentityDTOv1>>(resutl));
+        }
+        [HttpGet]
+        [Authorize]
+        [MapToApiVersion("2.0")]
+        public async Task<IActionResult> GeAllv2()
+        {
+            var resutl = await nationalIDentityRepository.GetAll();
+            var result = new List<ReadNationalIdentityDTOv2>();
+            foreach (var val1 in resutl)
+            {
+                result.Add(new ReadNationalIdentityDTOv2
+                {
+                    Id = val1.Id,
+                    NationalIdName = val1.NationalId
+                });
+            }
+
+            return Ok(result);
         }
         [ValidationModel]
         [HttpPost]
@@ -48,7 +70,7 @@ namespace FirstApplicationClass.Controllers
             
 
 
-            return Ok(mapper.Map<ReadNationalIdentityDTO>(response));
+            return Ok(mapper.Map<ReadNationalIdentityDTOv1>(response));
         }
         [HttpPut]
         [Route("{id}")]
@@ -69,7 +91,7 @@ namespace FirstApplicationClass.Controllers
         public async Task<IActionResult> DeleteNationalIdById(string id)
         {
             var result = await nationalIDentityRepository.Delete(id);
-            return Ok(mapper.Map<ReadNationalIdentityDTO>(result));
+            return Ok(mapper.Map<ReadNationalIdentityDTOv1>(result));
         }
 
     }
