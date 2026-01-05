@@ -27,7 +27,7 @@ namespace FirstApplicationClass.Controllers
         public IActionResult GetData([FromQuery]string? filterBy, [FromQuery] string? filterQuery, [FromQuery] string? sortBy, [FromQuery] bool isAscending=true, [FromQuery] int pageNumber=1, [FromQuery] int pageSize=100)
         {
             var personalDetails = personalInfoRepository.ListOfPerson(filterBy,filterQuery,sortBy,isAscending,pageNumber,pageSize);
-            var personalDetailsMapping = mapper.Map<List<AddPersonalDetaislDTO>>(personalDetails);
+            var personalDetailsMapping = mapper.Map<List<ReadPersonalDetailsDTO>>(personalDetails);
             logger.LogInformation("Hello This is log");
             return Ok(personalDetailsMapping);
         }
@@ -67,7 +67,7 @@ namespace FirstApplicationClass.Controllers
             return Ok(response);
         }
         [HttpDelete]
-        [Route("id")]
+        [Route("{id}")]
         public async Task<IActionResult> DeleteData(string id)
         {
             var result = await personalInfoRepository.DeletePerson(id);

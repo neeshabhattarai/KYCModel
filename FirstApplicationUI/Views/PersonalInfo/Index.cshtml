@@ -1,0 +1,35 @@
+﻿@using FirstApplicationUI.Models.DTO;
+@model List<PersonalIdentityDTO>
+<a asp-controller="personalinfo" asp-action="addpersonal">Add</a>
+<table>
+    <thead>
+
+    <tr>
+        <th>FirstName</th>
+            <th>LastName</th>
+            <th>DOB</th>
+            <th>Address</th>
+            <th>EmailAddress</th>
+            <th>City</th>
+            <th>Income</th>
+            <th colspan="2">Action</th>
+    </tr>
+    </thead>
+    @foreach(var item in Model)
+    {
+      <tr>
+          <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.DOB</td>
+            <td>@item.Address</td>
+            <td>@item.EmailAddress</td>
+            <td>@item.City</td>
+            <td>@item.Income</td>
+            <td><a asp-controller="PersonalInfo" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+            <td><a asp-controller="PersonalInfo" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+
+      </tr>  
+    }
+   
+</table>
+

@@ -10,6 +10,8 @@ namespace FirstApplicationClass.Mapper
             CreateMap<AddPersonalDetaislDTO, PersonalDetails>().ReverseMap();
             CreateMap<UpdatePersonalDetailsDTO, PersonalDetails>().ReverseMap();
             CreateMap<ReadPersonalDetailsDTO, PersonalDetails>().ReverseMap();
+            CreateMap<List<ReadPersonalDetailsDTO>, PersonalDetails>().ReverseMap();
+
             CreateMap<NationalIdentityDTO,NationalIdentity>().ReverseMap();
             CreateMap<ReadNationalIdentityDTOv1, NationalIdentity>().ReverseMap();
             CreateMap<UpdateNationalIdentityDTO, NationalIdentity>().ReverseMap();

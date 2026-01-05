@@ -15,6 +15,8 @@ using Microsoft.Extensions.FileProviders.Internal;
 using Microsoft.Extensions.FileProviders;
 using FirstApplicationClass.Middlerware;
 using Serilog;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,47 +25,61 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 builder.Services.AddSerilog(logger);
+//Added Version to swagger
+builder.Services.AddApiVersioning(opt =>
+{
+    opt.AssumeDefaultVersionWhenUnspecified = true;
+    opt.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
+    opt.ReportApiVersions = true;
+});
+builder.Services.AddVersionedApiExplorer(opt =>
+{
+    opt.GroupNameFormat = "'v'VVV";
+    opt.SubstituteApiVersionInUrl = true;
+});
+
 
 
 builder.Services.AddSwaggerGen(opt =>
 {
-   opt.SwaggerDoc("v1",new OpenApiInfo { Title="FirstApplication",Version="v1"});
+    opt.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Api Definition",
+        Description = JwtBearerDefaults.AuthenticationScheme
+    });
     opt.AddSecurityDefinition("Auth", new OpenApiSecurityScheme
     {
-In=ParameterLocation.Header,
-Scheme=JwtBearerDefaults.AuthenticationScheme,
-Name="Auth",
-Type=SecuritySchemeType.OAuth2
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Name = "Auth",
+        Scheme = JwtBearerDefaults.AuthenticationScheme,
+
     });
     opt.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
+        {new OpenApiSecurityScheme
         {
-            new OpenApiSecurityScheme
+            Reference=new OpenApiReference
             {
-                Reference=new OpenApiReference
-                {
-                    Id=JwtBearerDefaults.AuthenticationScheme,
-                    Type=ReferenceType.SecurityScheme
-                },
-                Scheme="Auth",
-                Type=SecuritySchemeType.OAuth2,
-                In=ParameterLocation.Header,
-                Name="Auth"
+                Type=ReferenceType.SecurityScheme,
+                Id="Auth"
             },
-            new List<string>()
+            Type=SecuritySchemeType.Http,
+            In=ParameterLocation.Header,
+            Scheme=JwtBearerDefaults.AuthenticationScheme
+            
+        },
+       new  List<string>()
         }
     });
+
+   
 
 });
 builder.Services.AddScoped<IPersonalDetails,SQLPersonalDetailsRepository>();
 builder.Services.AddScoped<INationalIdentity,SQLNationalIDentityRepository>();
 builder.Services.AddScoped<IImage, SQLRegisterImage>();
 
-builder.Services.AddApiVersioning(opt =>
-{
-    opt.AssumeDefaultVersionWhenUnspecified = true;
-    
-});
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
@@ -96,13 +112,18 @@ builder.Services.AddSingleton<IToken, TokenGenerator>();
 
 var app = builder.Build();
 
-
-
+var descriptors=app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 if (app.Environment.IsDevelopment())
 {
   
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(opt =>
+    {
+        foreach(var descriptor in descriptors.ApiVersionDescriptions)
+        {
+            opt.SwaggerEndpoint($"/swagger/{descriptor.GroupName}/swagger.json", descriptor.GroupName.ToUpperInvariant());
+        }
+    });
 }
 
 app.UseHttpsRedirection();
@@ -124,5 +145,4 @@ using (var scope = app.Services.CreateScope
     var roleManger = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     await SeedData.SeedDataDefault (userManager, roleManger);
 }
-
 app.Run();

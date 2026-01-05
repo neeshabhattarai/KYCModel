@@ -1,0 +1,59 @@
+﻿@using FirstApplicationUI.Models.DTO;
+@model PersonalIdentityDTO
+<form method="post">
+    <div>
+        <label>FirstName</label>
+        <input type="text" asp-for="FirstName"/>
+        <span asp-validation-for="FirstName"></span>
+
+    </div>
+    <div>
+        <label>LastName</label>
+        <input type="text" asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+
+    </div>
+    <div>
+        <label>DOB</label>
+        <input type="text" asp-for="DOB" />
+        <span asp-validation-for="DOB"></span>
+
+    </div>
+    <div>
+        <label>City</label>
+        <input type="text" asp-for="City" />
+        <span asp-validation-for="City"></span>
+
+    </div>
+    <div>
+        <label>EmailAddress</label>
+        <input type="text" asp-for="EmailAddress" />
+        <span asp-validation-for="EmailAddress"></span>
+
+    </div>
+    <div>
+        <label>Income</label>
+        <input type="text" asp-for="Income" />
+        <span asp-validation-for="Income"></span>
+
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="text" asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+
+    </div>
+    <div>
+        <label>PhoneNumber</label>
+        <input type="text" asp-for="PhoneNumber" />
+        <span asp-validation-for="PhoneNumber"></span>
+
+    </div>
+    <div>
+        <label>NationalIdentityId</label>
+        <input type="text" asp-for="NationalIdentityId" />
+        <span asp-validation-for="NationalIdentityId"></span>
+
+    </div>
+    <button>submit</button>
+</form>

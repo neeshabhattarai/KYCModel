@@ -1,0 +1,1192 @@
+2026-01-05 18:27:27.337 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:27:35.203 +05:45 [INF] Executed DbCommand (147ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:27:35.488 +05:45 [INF] Executed DbCommand (11ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:27:35.521 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:27:35.541 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:27:36.026 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:27:36.570 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:27:36.572 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:27:36.575 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:27:36.836 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:27:37.146 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:27:37.358 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 543.4079ms
+2026-01-05 18:27:37.378 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:27:52.662 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:27:55.202 +05:45 [INF] Executed DbCommand (90ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:27:55.340 +05:45 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:27:55.375 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:27:55.392 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:27:55.719 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:27:55.833 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:27:55.837 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:27:55.840 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:27:56.075 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:27:56.262 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:27:56.412 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 344.6472ms
+2026-01-05 18:27:56.433 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:28:01.682 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:28:01.729 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:28:01.793 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:28:03.104 +05:45 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:28:03.311 +05:45 [INF] Hello This is log
+2026-01-05 18:28:03.337 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:28:03.408 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1583.7924ms
+2026-01-05 18:28:03.417 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:28:03.435 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1753.7272ms
+2026-01-05 18:28:05.897 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:28:05.923 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:28:05.953 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:28:06.098 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:28:06.134 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:28:06.142 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 179.7136ms
+2026-01-05 18:28:06.154 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:28:06.167 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 269.8041ms
+2026-01-05 18:29:11.271 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:29:13.451 +05:45 [INF] Executed DbCommand (108ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:29:13.576 +05:45 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:29:13.605 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:29:13.620 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:29:13.825 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:29:14.038 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:29:14.042 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:29:14.049 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:29:14.564 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:29:14.822 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:29:14.962 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 406.1536ms
+2026-01-05 18:29:14.986 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:29:19.754 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:29:19.801 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:29:19.864 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:29:21.043 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:29:21.245 +05:45 [INF] Hello This is log
+2026-01-05 18:29:21.271 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:29:21.333 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1446.3301ms
+2026-01-05 18:29:21.340 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:29:21.364 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1611.8423ms
+2026-01-05 18:29:24.036 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:29:24.070 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:29:24.101 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:29:24.236 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:29:24.278 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:29:24.287 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 176.3269ms
+2026-01-05 18:29:24.299 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:29:24.311 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 200 null application/json; charset=utf-8 274.74ms
+2026-01-05 18:34:37.512 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:34:39.760 +05:45 [INF] Executed DbCommand (112ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:34:39.897 +05:45 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:34:39.922 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:34:39.936 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:34:40.173 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:34:40.256 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:34:40.257 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:34:40.259 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:34:40.877 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:34:41.107 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:34:41.255 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 387.5583ms
+2026-01-05 18:34:41.273 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:36:17.317 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:36:17.404 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:36:17.460 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:36:18.634 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:36:18.849 +05:45 [INF] Hello This is log
+2026-01-05 18:36:18.873 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:36:18.930 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1441.6006ms
+2026-01-05 18:36:18.936 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:36:18.965 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1649.4063ms
+2026-01-05 18:36:21.145 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:36:21.177 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:36:21.207 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:36:21.346 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:36:21.386 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:36:21.396 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 179.1081ms
+2026-01-05 18:36:21.413 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:36:21.427 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 281.9887ms
+2026-01-05 18:37:33.182 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:37:35.423 +05:45 [INF] Executed DbCommand (106ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:37:35.584 +05:45 [INF] Executed DbCommand (14ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:37:35.615 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:37:35.631 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:37:35.968 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:37:36.056 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:37:36.059 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:37:36.063 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:37:36.511 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:37:36.743 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:37:36.885 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 388.7722ms
+2026-01-05 18:37:36.905 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:37:59.269 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:38:01.415 +05:45 [INF] Executed DbCommand (95ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:38:01.545 +05:45 [INF] Executed DbCommand (9ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:38:01.567 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:38:01.583 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:38:01.790 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:38:01.865 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:38:01.870 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:38:01.874 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:38:02.317 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:38:02.483 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:38:02.680 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 375.512ms
+2026-01-05 18:38:02.698 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:38:07.267 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:38:07.312 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:38:07.371 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:38:08.654 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:38:08.866 +05:45 [INF] Hello This is log
+2026-01-05 18:38:08.887 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:38:08.940 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1541.237ms
+2026-01-05 18:38:08.950 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:38:08.968 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1703.0725ms
+2026-01-05 18:38:16.231 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:38:16.266 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:38:16.296 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:38:16.451 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:38:16.496 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:38:16.508 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 200.3361ms
+2026-01-05 18:38:16.520 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:38:16.533 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 302.1502ms
+2026-01-05 18:41:30.438 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/swagger/index.html - null null
+2026-01-05 18:41:30.677 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/swagger/index.html - 200 null text/html;charset=utf-8 239.5523ms
+2026-01-05 18:41:30.764 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/_vs/browserLink - null null
+2026-01-05 18:41:30.767 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-05 18:41:30.783 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 15.4983ms
+2026-01-05 18:41:30.897 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.5253ms
+2026-01-05 18:41:31.383 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/swagger/v1/swagger.json - null null
+2026-01-05 18:41:31.430 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.656ms
+2026-01-05 18:42:14.859 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:42:14.875 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:42:14.883 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:42:14.941 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:42:14.965 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:42:14.975 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 80.7196ms
+2026-01-05 18:42:14.985 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:42:14.996 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 137.4513ms
+2026-01-05 18:42:57.939 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:43:00.243 +05:45 [INF] Executed DbCommand (101ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:43:00.381 +05:45 [INF] Executed DbCommand (7ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:43:00.407 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:43:00.426 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:43:00.699 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:43:01.023 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:43:01.025 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:43:01.030 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:43:01.306 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:43:01.523 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:43:01.686 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 394.0598ms
+2026-01-05 18:43:01.710 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:43:07.023 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:43:07.075 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:43:07.128 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:43:08.260 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:43:08.472 +05:45 [INF] Hello This is log
+2026-01-05 18:43:08.499 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:43:08.560 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1402.1094ms
+2026-01-05 18:43:08.568 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:43:08.584 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1561.8276ms
+2026-01-05 18:45:18.017 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:45:20.363 +05:45 [INF] Executed DbCommand (89ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:45:20.509 +05:45 [INF] Executed DbCommand (7ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:45:20.533 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:45:20.547 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:45:20.803 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:45:21.189 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:45:21.192 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:45:21.198 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:45:21.202 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:45:21.447 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:45:21.587 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 404.8255ms
+2026-01-05 18:45:21.617 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:45:26.097 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:45:26.143 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:45:26.215 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:45:27.396 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:45:27.591 +05:45 [INF] Hello This is log
+2026-01-05 18:45:27.616 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:45:27.678 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1440.9956ms
+2026-01-05 18:45:27.688 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:45:27.707 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1611.4047ms
+2026-01-05 18:45:35.720 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:45:35.749 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:45:35.785 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:45:35.953 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:45:35.992 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:45:36.002 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 198.0837ms
+2026-01-05 18:45:36.011 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:45:36.023 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 302.6932ms
+2026-01-05 18:48:36.340 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:48:38.761 +05:45 [INF] Executed DbCommand (83ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:48:38.904 +05:45 [INF] Executed DbCommand (9ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:48:38.931 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:48:38.950 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:48:39.194 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:48:39.285 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:48:39.291 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:48:39.297 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:48:40.041 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:48:40.264 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:48:40.397 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 367.8765ms
+2026-01-05 18:48:40.422 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:48:45.581 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:48:45.629 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:48:45.685 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:48:46.810 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:48:47.007 +05:45 [INF] Hello This is log
+2026-01-05 18:48:47.032 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:48:47.087 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1377.8051ms
+2026-01-05 18:48:47.098 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:48:47.118 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1537.2823ms
+2026-01-05 18:50:08.716 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:50:11.170 +05:45 [INF] Executed DbCommand (87ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:50:11.320 +05:45 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:50:11.345 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:50:11.363 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:50:11.655 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:50:11.725 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:50:11.730 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:50:11.735 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:50:12.289 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:50:12.510 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:50:12.665 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 396.4714ms
+2026-01-05 18:50:12.687 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:50:18.967 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:50:19.016 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:19.080 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:50:20.149 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:50:20.346 +05:45 [INF] Hello This is log
+2026-01-05 18:50:20.376 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:50:20.431 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1331.6319ms
+2026-01-05 18:50:20.436 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:20.463 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1496.5276ms
+2026-01-05 18:50:22.289 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:50:22.314 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:22.318 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:22.322 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 33.3653ms
+2026-01-05 18:50:48.372 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:50:48.386 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:48.390 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:48.394 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 22.4128ms
+2026-01-05 18:50:48.436 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:50:48.451 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:48.465 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:50:48.539 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:50:48.555 +05:45 [INF] Hello This is log
+2026-01-05 18:50:48.559 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:50:48.575 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 96.3074ms
+2026-01-05 18:50:48.583 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:48.589 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 152.5344ms
+2026-01-05 18:50:57.324 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:50:57.337 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:57.344 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:50:57.389 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:50:57.405 +05:45 [INF] Hello This is log
+2026-01-05 18:50:57.411 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:50:57.423 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 65.0372ms
+2026-01-05 18:50:57.436 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:57.445 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 120.9648ms
+2026-01-05 18:50:59.513 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:50:59.528 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:59.534 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:50:59.541 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 28.5836ms
+2026-01-05 18:50:59.568 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:50:59.584 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:59.593 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:50:59.617 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:50:59.634 +05:45 [INF] Hello This is log
+2026-01-05 18:50:59.638 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:50:59.648 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 45.1ms
+2026-01-05 18:50:59.660 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:50:59.666 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 97.8782ms
+2026-01-05 18:51:40.120 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:51:40.130 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:40.137 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:51:40.161 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:51:40.176 +05:45 [INF] Hello This is log
+2026-01-05 18:51:40.181 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:51:40.191 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 42.9538ms
+2026-01-05 18:51:40.199 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:40.207 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 87.5649ms
+2026-01-05 18:51:41.360 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:51:41.378 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:41.386 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:51:41.412 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:51:41.429 +05:45 [INF] Hello This is log
+2026-01-05 18:51:41.432 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:51:41.442 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 44.4951ms
+2026-01-05 18:51:41.453 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:41.459 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 98.6641ms
+2026-01-05 18:51:42.922 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:51:42.933 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:42.940 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:42.948 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 26.0923ms
+2026-01-05 18:51:42.976 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:51:42.990 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:42.997 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:51:43.020 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:51:43.039 +05:45 [INF] Hello This is log
+2026-01-05 18:51:43.043 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:51:43.052 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 44.9826ms
+2026-01-05 18:51:43.066 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:43.074 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 98.457ms
+2026-01-05 18:51:45.881 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:51:45.895 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:45.902 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:45.909 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 28.0906ms
+2026-01-05 18:51:45.934 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:51:45.948 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:45.955 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:51:45.981 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:51:45.998 +05:45 [INF] Hello This is log
+2026-01-05 18:51:46.002 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:51:46.011 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 42.7008ms
+2026-01-05 18:51:46.025 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:46.036 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 101.4463ms
+2026-01-05 18:51:46.947 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:51:46.958 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:46.964 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:51:46.969 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 22.8653ms
+2026-01-05 18:51:46.994 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:51:47.008 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:47.012 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:51:47.037 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:51:47.054 +05:45 [INF] Hello This is log
+2026-01-05 18:51:47.059 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:51:47.071 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 46.9205ms
+2026-01-05 18:51:47.079 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:51:47.087 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 92.9356ms
+2026-01-05 18:52:30.923 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 18:52:33.465 +05:45 [INF] Executed DbCommand (82ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:52:33.586 +05:45 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:52:33.611 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 18:52:33.626 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 18:52:33.921 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 18:52:34.081 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 18:52:34.083 +05:45 [INF] Hosting environment: Development
+2026-01-05 18:52:34.086 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 18:52:34.292 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 18:52:34.516 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 18:52:34.636 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 363.2839ms
+2026-01-05 18:52:34.654 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 18:52:41.618 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:52:41.664 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:41.729 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:52:43.003 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:52:43.228 +05:45 [INF] Hello This is log
+2026-01-05 18:52:43.272 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:52:43.335 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 1575.8122ms
+2026-01-05 18:52:43.344 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:43.357 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 1740.1882ms
+2026-01-05 18:52:48.232 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:52:48.265 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:48.272 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:48.280 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 47.4773ms
+2026-01-05 18:52:48.312 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:52:48.331 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:48.340 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:52:48.421 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:52:48.437 +05:45 [INF] Hello This is log
+2026-01-05 18:52:48.441 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:52:48.450 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 96.1587ms
+2026-01-05 18:52:48.465 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:48.473 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 160.2175ms
+2026-01-05 18:52:49.840 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:52:49.851 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:49.860 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:49.867 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 27.7704ms
+2026-01-05 18:52:49.895 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:52:49.911 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:49.919 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:52:49.966 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:52:49.977 +05:45 [INF] Hello This is log
+2026-01-05 18:52:49.984 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:52:49.994 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 60.6738ms
+2026-01-05 18:52:50.006 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:50.015 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 120.2523ms
+2026-01-05 18:52:50.963 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:52:50.974 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:50.978 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:52:50.987 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 23.9532ms
+2026-01-05 18:52:51.012 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:52:51.023 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:51.031 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:52:51.056 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:52:51.067 +05:45 [INF] Hello This is log
+2026-01-05 18:52:51.073 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:52:51.084 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 43.3432ms
+2026-01-05 18:52:51.095 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:52:51.102 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 90.1905ms
+2026-01-05 18:54:10.441 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:54:10.461 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:54:10.496 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:54:10.589 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:54:10.627 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:54:10.640 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 134.4732ms
+2026-01-05 18:54:10.648 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:54:10.663 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 222.1853ms
+2026-01-05 18:54:25.869 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:54:25.880 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:54:25.886 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:54:25.927 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:54:25.942 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:54:25.951 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 55.2212ms
+2026-01-05 18:54:25.962 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:54:25.970 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 101.454ms
+2026-01-05 18:55:33.327 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:55:33.345 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:55:33.354 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:55:33.361 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 34.4299ms
+2026-01-05 18:55:33.390 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:55:33.402 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:55:33.408 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:55:33.433 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:55:33.446 +05:45 [INF] Hello This is log
+2026-01-05 18:55:33.449 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:55:33.455 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 37.9894ms
+2026-01-05 18:55:33.461 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:55:33.467 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 77.6109ms
+2026-01-05 18:56:08.715 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:56:08.734 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:08.742 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:08.750 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 35.5149ms
+2026-01-05 18:56:08.776 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:08.790 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:08.794 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:08.818 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:08.829 +05:45 [INF] Hello This is log
+2026-01-05 18:56:08.832 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:08.838 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 32.261ms
+2026-01-05 18:56:08.845 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:08.855 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 78.2444ms
+2026-01-05 18:56:10.647 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:56:10.662 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:10.667 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:10.672 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 405 0 null 25.3075ms
+2026-01-05 18:56:10.698 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:10.711 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:10.715 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:10.744 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:10.756 +05:45 [INF] Hello This is log
+2026-01-05 18:56:10.761 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:10.770 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 41.1015ms
+2026-01-05 18:56:10.777 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:10.786 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 87.849ms
+2026-01-05 18:56:12.578 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:12.597 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:12.605 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:12.613 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 35.217ms
+2026-01-05 18:56:12.645 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:12.660 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:12.668 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:12.697 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:12.710 +05:45 [INF] Hello This is log
+2026-01-05 18:56:12.717 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:12.730 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 46.4329ms
+2026-01-05 18:56:12.753 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:12.762 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 116.3801ms
+2026-01-05 18:56:13.852 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:13.870 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:13.879 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:13.889 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 36.4738ms
+2026-01-05 18:56:13.913 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:13.931 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:13.944 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:13.976 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:13.991 +05:45 [INF] Hello This is log
+2026-01-05 18:56:13.998 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.008 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 49.4568ms
+2026-01-05 18:56:14.020 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.032 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 119.1424ms
+2026-01-05 18:56:14.054 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.074 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.082 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.086 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 31.7756ms
+2026-01-05 18:56:14.110 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:14.130 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.136 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:14.168 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:14.178 +05:45 [INF] Hello This is log
+2026-01-05 18:56:14.186 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.205 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 52.5889ms
+2026-01-05 18:56:14.231 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.247 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 137.6147ms
+2026-01-05 18:56:14.292 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.302 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.308 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.315 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 22.7355ms
+2026-01-05 18:56:14.339 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:14.359 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.367 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:14.398 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:14.410 +05:45 [INF] Hello This is log
+2026-01-05 18:56:14.418 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.422 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.439 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.447 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 62.5818ms
+2026-01-05 18:56:14.454 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.462 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.469 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 58.4548ms
+2026-01-05 18:56:14.478 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 139.1379ms
+2026-01-05 18:56:14.524 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:14.536 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.545 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:14.563 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:14.578 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.580 +05:45 [INF] Hello This is log
+2026-01-05 18:56:14.596 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.600 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.605 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.613 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 59.88ms
+2026-01-05 18:56:14.623 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 45.4827ms
+2026-01-05 18:56:14.637 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.653 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:14.660 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 135.658ms
+2026-01-05 18:56:14.670 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.693 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:14.714 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:14.732 +05:45 [INF] Hello This is log
+2026-01-05 18:56:14.741 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.748 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 45.0189ms
+2026-01-05 18:56:14.756 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.757 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.769 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.775 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 122.1546ms
+2026-01-05 18:56:14.782 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.817 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 61.0463ms
+2026-01-05 18:56:14.843 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:14.859 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.868 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:14.895 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:14.908 +05:45 [INF] Hello This is log
+2026-01-05 18:56:14.912 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:14.915 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:14.920 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 39.1262ms
+2026-01-05 18:56:14.934 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.942 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:14.945 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:14.949 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 106.1111ms
+2026-01-05 18:56:14.955 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 40.2058ms
+2026-01-05 18:56:14.993 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.010 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.017 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.044 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.059 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.063 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.069 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 39.1772ms
+2026-01-05 18:56:15.074 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.081 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 87.9555ms
+2026-01-05 18:56:15.101 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:15.114 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.117 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.120 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 19.2041ms
+2026-01-05 18:56:15.145 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.159 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.167 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.191 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.207 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.212 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.224 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 46.2469ms
+2026-01-05 18:56:15.231 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.239 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 93.9305ms
+2026-01-05 18:56:15.271 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:15.287 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.293 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.300 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 29.2101ms
+2026-01-05 18:56:15.326 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.339 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.349 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.378 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.394 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.398 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.405 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 41.8746ms
+2026-01-05 18:56:15.412 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.426 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 100.6017ms
+2026-01-05 18:56:15.469 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:15.488 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.494 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.504 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 35.3553ms
+2026-01-05 18:56:15.530 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.551 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.555 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.586 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.601 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.606 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:15.606 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.620 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.628 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 54.5323ms
+2026-01-05 18:56:15.635 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.645 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.649 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 42.9354ms
+2026-01-05 18:56:15.660 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 129.6927ms
+2026-01-05 18:56:15.692 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.704 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.709 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.734 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.744 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.748 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.756 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 36.5064ms
+2026-01-05 18:56:15.762 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.768 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 76.0546ms
+2026-01-05 18:56:15.806 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:15.822 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.827 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:15.834 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 27.6135ms
+2026-01-05 18:56:15.858 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:15.875 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.882 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:15.906 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:15.921 +05:45 [INF] Hello This is log
+2026-01-05 18:56:15.925 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:15.931 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 37.834ms
+2026-01-05 18:56:15.942 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:15.951 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 93.2968ms
+2026-01-05 18:56:15.993 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.002 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.005 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.011 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 18.0166ms
+2026-01-05 18:56:16.065 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.075 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.080 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.107 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.153 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.154 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.169 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.173 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:16.180 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.193 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 98.2711ms
+2026-01-05 18:56:16.201 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 47.2779ms
+2026-01-05 18:56:16.220 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.242 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.248 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 182.9616ms
+2026-01-05 18:56:16.261 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.283 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.287 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.299 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.317 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.324 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 40.476ms
+2026-01-05 18:56:16.326 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.354 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.361 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.369 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.374 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:16.383 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.388 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 75.9959ms
+2026-01-05 18:56:16.423 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.426 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.427 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 185.8564ms
+2026-01-05 18:56:16.449 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.465 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.467 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:16.484 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.490 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 76.6636ms
+2026-01-05 18:56:16.493 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.504 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.511 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 46.5003ms
+2026-01-05 18:56:16.523 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 168.6765ms
+2026-01-05 18:56:16.554 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.567 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.572 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.597 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.615 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.620 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:16.625 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 41.3851ms
+2026-01-05 18:56:16.630 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.636 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 82.9525ms
+2026-01-05 18:56:16.662 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.678 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.687 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.694 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 31.5866ms
+2026-01-05 18:56:16.729 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.741 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.749 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.777 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.798 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.801 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:16.809 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 45.1687ms
+2026-01-05 18:56:16.812 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.818 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.833 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.838 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 108.8932ms
+2026-01-05 18:56:16.842 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:16.867 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 55.3096ms
+2026-01-05 18:56:16.922 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:16.938 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:16.943 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:16.967 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:16.969 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:16.984 +05:45 [INF] Hello This is log
+2026-01-05 18:56:16.999 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.003 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.008 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.017 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 60.4854ms
+2026-01-05 18:56:17.024 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 54.4071ms
+2026-01-05 18:56:17.040 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.055 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:17.061 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 139.3794ms
+2026-01-05 18:56:17.078 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.102 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:17.123 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:17.137 +05:45 [INF] Hello This is log
+2026-01-05 18:56:17.137 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:17.142 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.157 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.162 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 49.9644ms
+2026-01-05 18:56:17.167 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.174 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.181 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 44.3804ms
+2026-01-05 18:56:17.190 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 134.534ms
+2026-01-05 18:56:17.233 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:17.245 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.252 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:17.276 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:17.285 +05:45 [INF] Hello This is log
+2026-01-05 18:56:17.289 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.295 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 31.1277ms
+2026-01-05 18:56:17.310 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.313 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:17.324 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 91.0921ms
+2026-01-05 18:56:17.337 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.353 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.359 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 46.2183ms
+2026-01-05 18:56:17.380 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:17.395 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.399 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:17.420 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:17.434 +05:45 [INF] Hello This is log
+2026-01-05 18:56:17.437 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.443 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 34.7978ms
+2026-01-05 18:56:17.468 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.472 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 92.1776ms
+2026-01-05 18:56:17.513 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:17.533 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.542 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.548 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 35.2ms
+2026-01-05 18:56:17.575 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:17.595 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.602 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:17.626 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:17.641 +05:45 [INF] Hello This is log
+2026-01-05 18:56:17.648 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.651 +05:45 [INF] Request starting HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - null null
+2026-01-05 18:56:17.665 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 50.2669ms
+2026-01-05 18:56:17.677 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.687 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.695 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:56:17.706 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 131.1938ms
+2026-01-05 18:56:17.715 +05:45 [INF] Request finished HTTP/1.1 DELETE http://localhost:5258/api/personalinfo/86528c76-3b92-4248-a69c-e8896fc48aab - 405 0 null 63.9622ms
+2026-01-05 18:56:17.772 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:56:17.790 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.797 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:56:17.819 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:56:17.833 +05:45 [INF] Hello This is log
+2026-01-05 18:56:17.837 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:56:17.845 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 37.1773ms
+2026-01-05 18:56:17.854 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:56:17.863 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 91.2193ms
+2026-01-05 18:56:34.957 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/swagger/index.html - null null
+2026-01-05 18:56:35.159 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/swagger/index.html - 200 null text/html;charset=utf-8 201.224ms
+2026-01-05 18:56:35.192 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-05 18:56:35.197 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/_vs/browserLink - null null
+2026-01-05 18:56:35.207 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 15.4238ms
+2026-01-05 18:56:35.310 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.4793ms
+2026-01-05 18:56:35.402 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/swagger/v1/swagger.json - null null
+2026-01-05 18:56:35.442 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.8104ms
+2026-01-05 18:57:14.100 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo?isAscending=true&pageNumber=1&pageSize=100 - null null
+2026-01-05 18:57:14.126 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:14.133 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:57:14.157 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:57:14.168 +05:45 [INF] Hello This is log
+2026-01-05 18:57:14.173 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:57:14.186 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 46.7906ms
+2026-01-05 18:57:14.199 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:14.210 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo?isAscending=true&pageNumber=1&pageSize=100 - 200 null application/json; charset=utf-8 109.6131ms
+2026-01-05 18:57:39.831 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:57:39.847 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:57:39.855 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:57:39.913 +05:45 [INF] Executed DbCommand (11ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:57:39.927 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:57:39.935 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 68.9725ms
+2026-01-05 18:57:39.955 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:57:39.963 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 131.3922ms
+2026-01-05 18:57:44.172 +05:45 [INF] Request starting HTTP/1.1 PUT http://localhost:5258/api/personalinfo - application/json; charset=utf-8 278
+2026-01-05 18:57:44.194 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:57:44.203 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:57:44.212 +05:45 [INF] Request finished HTTP/1.1 PUT http://localhost:5258/api/personalinfo - 405 0 null 40.3188ms
+2026-01-05 18:57:44.239 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:57:44.251 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:44.260 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:57:44.304 +05:45 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:57:44.319 +05:45 [INF] Hello This is log
+2026-01-05 18:57:44.323 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:57:44.334 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 58.8754ms
+2026-01-05 18:57:44.347 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:44.355 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 115.9152ms
+2026-01-05 18:57:47.823 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:57:47.839 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:57:47.848 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:57:47.899 +05:45 [INF] Executed DbCommand (4ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:57:47.917 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:57:47.924 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 60.5511ms
+2026-01-05 18:57:47.935 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:57:47.940 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 117.1269ms
+2026-01-05 18:57:55.558 +05:45 [INF] Request starting HTTP/1.1 PUT http://localhost:5258/api/personalinfo - application/json; charset=utf-8 280
+2026-01-05 18:57:55.580 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:57:55.589 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:57:55.596 +05:45 [INF] Request finished HTTP/1.1 PUT http://localhost:5258/api/personalinfo - 405 0 null 38.901ms
+2026-01-05 18:57:55.623 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:57:55.639 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:55.647 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:57:55.673 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:57:55.686 +05:45 [INF] Hello This is log
+2026-01-05 18:57:55.691 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:57:55.703 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 44.1526ms
+2026-01-05 18:57:55.716 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:57:55.724 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 100.7424ms
+2026-01-05 18:58:01.467 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - null null
+2026-01-05 18:58:01.497 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:58:01.504 +05:45 [INF] Route matched with {action = "GetDataById", controller = "PersonalDetails"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDataById(System.String) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:58:01.548 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[@id='?' (Size = 450)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber]
+FROM [PersonalInfo] AS [p]
+WHERE [p].[Id] = @id
+2026-01-05 18:58:01.567 +05:45 [INF] Executing OkObjectResult, writing value of type 'FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO'.
+2026-01-05 18:58:01.578 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass) in 62.3121ms
+2026-01-05 18:58:01.585 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetDataById (FirstApplicationClass)'
+2026-01-05 18:58:01.590 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo/006447ec-90dd-48a9-be80-4c3e778f493c - 200 null application/json; charset=utf-8 123.2389ms
+2026-01-05 18:58:13.928 +05:45 [INF] Request starting HTTP/1.1 PUT http://localhost:5258/api/personalinfo - application/json; charset=utf-8 276
+2026-01-05 18:58:13.938 +05:45 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:58:13.943 +05:45 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-01-05 18:58:13.946 +05:45 [INF] Request finished HTTP/1.1 PUT http://localhost:5258/api/personalinfo - 405 0 null 18.0396ms
+2026-01-05 18:58:13.971 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:58:13.988 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:58:13.995 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:58:14.032 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:58:14.051 +05:45 [INF] Hello This is log
+2026-01-05 18:58:14.056 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:58:14.064 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 53.8492ms
+2026-01-05 18:58:14.078 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:58:14.086 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 114.1915ms
+2026-01-05 18:58:16.666 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 18:58:16.680 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:58:16.684 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 18:58:16.704 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 18:58:16.715 +05:45 [INF] Hello This is log
+2026-01-05 18:58:16.721 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.ReadPersonalDetailsDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 18:58:16.732 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 40.0489ms
+2026-01-05 18:58:16.740 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 18:58:16.749 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 82.4726ms

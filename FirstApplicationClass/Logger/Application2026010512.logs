@@ -1,0 +1,222 @@
+2026-01-05 12:20:27.690 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:20:31.174 +05:45 [INF] Executed DbCommand (128ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:20:31.317 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:20:31.331 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:20:31.336 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:20:31.617 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:20:31.918 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:20:32.057 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:20:32.058 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:20:32.059 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:20:32.137 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:20:32.310 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 405.2859ms
+2026-01-05 12:20:32.327 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:24:45.469 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:24:45.485 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:24:45.512 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:24:46.030 +05:45 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:24:46.091 +05:45 [INF] Hello This is log
+2026-01-05 12:24:46.102 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:24:46.123 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 604.265ms
+2026-01-05 12:24:46.125 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:24:46.130 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 661.1469ms
+2026-01-05 12:25:32.851 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:25:34.627 +05:45 [INF] Executed DbCommand (62ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:25:34.736 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:25:34.745 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:25:34.749 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:25:34.988 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:25:35.238 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:25:35.240 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:25:35.241 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:25:35.342 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:25:35.465 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:25:35.529 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 198.3623ms
+2026-01-05 12:25:35.539 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:25:41.856 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:25:41.878 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:25:41.910 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:25:42.390 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:25:42.480 +05:45 [INF] Hello This is log
+2026-01-05 12:25:42.491 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:25:42.530 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 606.5058ms
+2026-01-05 12:25:42.534 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:25:42.539 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 683.5867ms
+2026-01-05 12:26:57.093 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:26:58.937 +05:45 [INF] Executed DbCommand (72ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:26:59.031 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:26:59.041 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:26:59.044 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:26:59.211 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:26:59.388 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:26:59.391 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:26:59.393 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:26:59.822 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:26:59.953 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:27:00.032 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 220.2333ms
+2026-01-05 12:27:00.045 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:27:11.068 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:27:11.084 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:27:11.122 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:27:11.548 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:27:11.610 +05:45 [INF] Hello This is log
+2026-01-05 12:27:11.627 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:27:11.671 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 536.5898ms
+2026-01-05 12:27:11.674 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:27:11.680 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 612.2238ms
+2026-01-05 12:33:56.312 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:33:57.938 +05:45 [INF] Executed DbCommand (53ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:33:58.030 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:33:58.040 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:33:58.044 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:33:58.212 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:33:58.444 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:33:58.447 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:33:58.448 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:33:58.681 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:33:58.809 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:33:58.882 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 214.1344ms
+2026-01-05 12:33:58.892 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:34:04.033 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:34:04.047 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:34:04.065 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:34:04.501 +05:45 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:34:04.575 +05:45 [INF] Hello This is log
+2026-01-05 12:34:04.588 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:34:04.617 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 542.1612ms
+2026-01-05 12:34:04.621 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:34:04.628 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 594.812ms
+2026-01-05 12:35:42.168 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:35:44.155 +05:45 [INF] Executed DbCommand (69ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:35:44.268 +05:45 [INF] Executed DbCommand (7ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:35:44.280 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:35:44.284 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:35:44.458 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:35:44.541 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:35:44.542 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:35:44.544 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:35:44.954 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:35:45.089 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:35:45.160 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 219.1681ms
+2026-01-05 12:35:45.171 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:35:50.479 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:35:50.496 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:35:50.526 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:35:50.993 +05:45 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:35:51.111 +05:45 [INF] Hello This is log
+2026-01-05 12:35:51.129 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:35:51.150 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 617.4949ms
+2026-01-05 12:35:51.152 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:35:51.158 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 678.6589ms
+2026-01-05 12:40:34.100 +05:45 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-05 12:40:35.858 +05:45 [INF] Executed DbCommand (62ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:40:35.954 +05:45 [INF] Executed DbCommand (6ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:40:35.964 +05:45 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-01-05 12:40:35.969 +05:45 [INF] Executed DbCommand (0ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='0']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-01-05 12:40:36.201 +05:45 [INF] Now listening on: http://localhost:5258
+2026-01-05 12:40:36.412 +05:45 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-05 12:40:36.413 +05:45 [INF] Hosting environment: Development
+2026-01-05 12:40:36.414 +05:45 [INF] Content root path: C:\Users\User\source\repos\FirstApplicationClass\FirstApplicationClass
+2026-01-05 12:40:36.531 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/ - null null
+2026-01-05 12:40:36.669 +05:45 [WRN] Failed to determine the https port for redirect.
+2026-01-05 12:40:36.731 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/ - 404 null null 216.2776ms
+2026-01-05 12:40:36.740 +05:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5258/, Response status code: 404
+2026-01-05 12:40:43.338 +05:45 [INF] Request starting HTTP/1.1 GET http://localhost:5258/api/personalinfo - null null
+2026-01-05 12:40:43.356 +05:45 [INF] Executing endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:40:43.388 +05:45 [INF] Route matched with {action = "GetData", controller = "PersonalDetails"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetData(System.String, System.String, System.String, Boolean, Int32, Int32) on controller FirstApplicationClass.Controllers.PersonalDetailsController (FirstApplicationClass).
+2026-01-05 12:40:43.807 +05:45 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='0']
+SELECT [p].[Id], [p].[Address], [p].[City], [p].[DOB], [p].[EmailAddress], [p].[FirstName], [p].[Income], [p].[LastName], [p].[NationalIdentityId], [p].[PhoneNumber], [n].[Id], [n].[NationalId]
+FROM [PersonalInfo] AS [p]
+INNER JOIN [NationalIdentities] AS [n] ON [p].[NationalIdentityId] = [n].[Id]
+2026-01-05 12:40:43.894 +05:45 [INF] Hello This is log
+2026-01-05 12:40:43.902 +05:45 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FirstApplicationClass.Model.DTO.AddPersonalDetaislDTO, FirstApplicationClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-01-05 12:40:43.917 +05:45 [INF] Executed action FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass) in 520.0058ms
+2026-01-05 12:40:43.919 +05:45 [INF] Executed endpoint 'FirstApplicationClass.Controllers.PersonalDetailsController.GetData (FirstApplicationClass)'
+2026-01-05 12:40:43.927 +05:45 [INF] Request finished HTTP/1.1 GET http://localhost:5258/api/personalinfo - 200 null application/json; charset=utf-8 589.4118ms
