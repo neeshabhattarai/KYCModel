@@ -11,7 +11,7 @@ using FirstApplicationClass.Repository.Interface;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace FirstApplicatinClass.UnitTest
+namespace FirstApplicatinClass.UnitTest.RepositoryTest
 {
     public class PersonalInfoRepositoryTest
     {
