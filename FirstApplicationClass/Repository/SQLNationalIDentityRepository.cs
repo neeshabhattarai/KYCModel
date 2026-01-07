@@ -43,7 +43,7 @@ namespace FirstApplicationClass.Repository
         public async Task<NationalIdentity> Update(string id, NationalIdentity identity)
         {
             var result = await context.NationalIdentities.FindAsync(id);
-            if (result != null)
+            if (result == null)
             {
                 return null;
             }
